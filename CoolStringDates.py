@@ -31,9 +31,11 @@ BirthDate = "1984-05-09"
 StartDate = datetime.datetime.strptime("2016-03-14", "%Y-%m-%d")
 BirthDate = datetime.datetime.strptime("1984-05-09", "%Y-%m-%d")
 
+EmpName = EmpNameFirst + " " + EmpNameLast
+
 EmpNum = EmpNameFirst[0] + EmpNameLast[0] + Phone[10:] + StartDate.strftime("%y") + BirthDate.strftime("%y")
 
-EmpAge = int((CurDate - BirthDate).days / 365.25) 
+EmpAge = int((CurDate - BirthDate).days / 365) 
 
 YearsToRetire = 65 - EmpAge
 RetireYear  = CurDate.year + YearsToRetire
@@ -44,15 +46,21 @@ NextBirthday = datetime.datetime(CurDate.year, BirthDate.month, BirthDate.day)
 if CurDate > NextBirthday:
     NextBirthday = datetime.datetime(CurDate.year + 1, BirthDate.month, BirthDate.day)
 
+NextBirthdayDsp = datetime.datetime.strftime(NextBirthday, "%Y-%m-%d")
+
 UntilBirthday = (NextBirthday - CurDate).days
 
 # Display results
-print(EmpNum)
-print(EmpAge)
-print(YearsToRetire)
-print(RetireYear)
-print(NextBirthday)
-print(UntilBirthday)
+
+print()
+print(f"Employee Name:        {EmpName:<30s}")
+print(f"Employee Number:      {EmpNum:<30s}")
+print(f"Employee Age:         {EmpAge:<30d}")
+print(f"Years to Retirement:  {YearsToRetire:<30d}")
+print(f"Retirement Year:      {RetireYear:<30d}")
+print(f"Next Birthday:        {NextBirthdayDsp:<30s}")
+print(f"Days Until Birthday:  {UntilBirthday:<30d}")
+print()
 
 
 # Write the values to a data file for storage.
