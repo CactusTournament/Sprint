@@ -56,10 +56,10 @@ print()
 print(f"Employee Name:        {EmpName:<30s}")
 print(f"Employee Number:      {EmpNum:<30s}")
 print(f"Employee Age:         {EmpAge:<30d}")
-print(f"Years to Retirement:  {YearsToRetire:<30d}")
-print(f"Retirement Year:      {RetireYear:<30d}")
 print(f"Next Birthday:        {NextBirthdayDsp:<30s}")
 print(f"Days Until Birthday:  {UntilBirthday:<30d}")
+print(f"Years to Retirement:  {YearsToRetire:<30d}")
+print(f"Retirement Year:      {RetireYear:<30d}")
 print()
 
 
