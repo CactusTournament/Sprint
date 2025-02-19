@@ -16,7 +16,7 @@ MILE_AMOUNT_RENTAL = 65.00
 BONUS_DATE = 50.00
 EXEC_BONUS = 45.00
 DAY_BONUS = 100.00
-#Random comment
+
 
 MILE_AMOUNT_RATE = .17
 HST_RATE = .15
@@ -99,6 +99,7 @@ while True:
             print("Error - Please enter O or R only.")
             print()
     while True:
+        BonusKm = 0.00
         if CarUsed == "O":
             TotKm = input("Please enter the number of kilometers traveled: ")
             if TotKm == "":
@@ -201,7 +202,7 @@ while True:
     print()
     Continue = input("       Would you like to enter another claim? (Y/N): ").upper()
     if Continue == "N":
-        print("Exiting the program... Have a good day!")
+        print("              Exiting the program... Have a good day!")
         break
     
 
