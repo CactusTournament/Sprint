@@ -1,0 +1,98 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+body {
+  width: 1300px;
+  height: 1000px;
+  margin: auto;
+}
+
+.mainbox {
+  width: 1500px;
+  height: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  float: left;
+}
+
+.headerbox {
+  width: 900px;
+  height: 300px;
+  margin:0px 150px ;
+  text-align: center;
+  float: left;
+}
+
+.picboxsmall {
+  width: 130px;
+  height: 150px;
+  margin-top: 55px;
+  background-color: green;
+  float: left;
+}
+.picboxmed {
+  width: 160px;
+  height: 230px;
+  background-color: rgb(0, 30, 128);
+  margin-top: 15px;
+  float: left;
+}
+.picboxlarge {
+  width: 260px;
+  height: 260px;
+  background-color: rgb(128, 0, 100);
+  float: left;
+}
+
+.picboxsmall:hover{
+  transform: scale(1.6); 
+  transition: transform 0.7s ease;
+}
+.picboxmed:hover{
+  transform: scale(1.13); 
+  transition: transform 0.5s ease;
+}
+.picboxlarge:hover{
+  transform: scale(1.05); 
+  transition: transform 0.4s ease;
+}
+
+
+.footerbox {
+  width: 1000px;
+  height: 290px;
+  border: 2px black solid;
+  background-color: brown;
+  margin: auto;
+  float: left;
+}
+
+.linksfootbox {
+  width: 200px;
+  height: 190px;
+  margin-top: 40px;
+  margin-left: 400px;
+  margin-right: 400px;
+  float: left;
+}
+.linksfoot {
+  width: 100px;
+  height: 200px;
+  margin: auto;
+  margin-bottom: 100px;
+  text-wrap: wrap;
+  text-align: center;
+  color: white;
+  float: left;
+}
+
+.copybox {
+  width: 250px;
+  height: 30px;
+  background-color: aquamarine;
+  padding-top: 10px;
+  float: left;
+}
