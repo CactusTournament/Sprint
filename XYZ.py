@@ -118,5 +118,4 @@ while True:
     # Write the values to a data file for storage.
 
 
-
 # Any housekeeping duties at the end of the program.
