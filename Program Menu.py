@@ -105,5 +105,3 @@ _-----`  |(,__,__/__/_ .
     else:
         continue
 
-
-    # oooo booooy
