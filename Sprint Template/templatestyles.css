@@ -11,7 +11,7 @@ body {
 
 .mainbox {
   width: 1000px;
-  background-image: linear-gradient(to bottom, rgb(26, 28, 31), rgb(66, 26, 26), rgb(26, 28, 31));
+  background-color: rgb(26, 28, 31);
   margin: auto;
   margin-top: 5px;
   margin-bottom: 20px;
@@ -38,61 +38,109 @@ nav {
   
 }
 
-nav a:link {
+nav a {
   color: white;
   text-decoration: none;
-}
-
-nav a:visited {
-  color: white;
-  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s;
 }
 
 nav a:hover {
   color: rgb(235,98,95);
+}
+
+.footerbox {
+  width: 1000px;
+  height: 300px;
+  background-color: #4CAF50;
+  float: left;
+}
+
+.footerlinks {
+  width: 1000px;
+  height: 250px;
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+  background-color: rgb(26, 28, 31);
+  color: white;
+}
+
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;  
+  width: 280px;                      
+  max-width: 800px;               
+}
+
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.footer-column a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+
+.footer-column a:hover {
+  color: rgb(235,98,95);
+}
+
+.footer-text {
+  font-size: 12px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.copyrightbox {
+  box-sizing: border-box;
+  color: rgb(143, 143, 143);
+  width: 800px;
+  height: 50px;
+  background-color: rgb(26, 28, 31);
+  padding-top: 25px;
+  padding-left: 10px;
+  font-size: 13px;
+  float: left;
+}
+.socialbox {
+  box-sizing: border-box;
+  width: 200px;
+  height: 50px;
+  padding-top: 10px;
+  padding-left: 60px;
+  padding-bottom: 10px;
+  background-color: rgb(26, 28, 31);
+  float: left;
+}
+
+.socialbox a:link {
+  color: none;
   text-decoration: none;
 }
 
-.displaybox {
-  width: 1000px;
-  height: 300px;
-  margin-top: 30px;
-  margin-left: 80px;
-  text-align: center;
-  float: left;
+.socialbox a:visited {
+  color: none;
+  text-decoration: none;
 }
- 
-.picboxsmall {
-  width: 130px;
-  height: 150px;
-  margin-top: 55px;
-  background-color: green;
-  float: left;
-}
-.picboxmed {
-  width: 160px;
-  height: 230px;
-  background-color: rgb(0, 30, 128);
-  margin-top: 15px;
-  float: left;
-}
-.picboxlarge {
-  width: 260px;
-  height: 260px;
-  background-color: rgb(128, 0, 100);
-  float: left;
-}
- 
-.picboxsmall:hover{
-  transform: scale(1.6);
-  transition: transform 0.7s ease;
-}
-.picboxmed:hover{
-  transform: scale(1.13);
-  transition: transform 0.5s ease;
-}
-.picboxlarge:hover{
-  transform: scale(1.05);
-  transition: transform 0.4s ease;
+
+.dotstyle {
+  color: white;
+  font-size: 20px;
+  color: #b0b0b0;              /* Light grey color for the text */
+  text-shadow: 
+    1px 1px 0 #333,           /* Light shadow on top-left */
+    -1px -1px 0 #666,         /* Dark shadow on bottom-right */
+    1px -1px 0 #666,          /* Dark shadow on top-right */
+    -1px 1px 0 #333;          /* Light shadow on bottom-left */
+
 }
 
