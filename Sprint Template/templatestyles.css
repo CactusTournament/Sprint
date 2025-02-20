@@ -18,6 +18,7 @@ body {
   text-align: left;
 }
 
+
 header {
   width: 1000px;
   height: 300px;
@@ -41,7 +42,8 @@ nav {
 nav a {
   color: white;
   text-decoration: none;
-  font-size: 14px;
+  margin-right: 20px;
+  font-size: 16px;
   transition: color 0.3s;
 }
 
@@ -122,6 +124,7 @@ nav a:hover {
   float: left;
 }
 
+
 .socialbox a:link {
   color: none;
   text-decoration: none;
@@ -131,6 +134,7 @@ nav a:hover {
   color: none;
   text-decoration: none;
 }
+
 
 .dotstyle {
   color: white;
