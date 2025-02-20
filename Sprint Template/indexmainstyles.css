@@ -1,0 +1,274 @@
+main {
+    width: 1000px;
+    height: 1680px;
+    margin-top: 50px;
+    background-color: rgb(26, 28, 31);
+}
+
+.displaybox {
+    width: 1000px;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: 80px;
+    text-align: center;
+    float: left;
+  }
+   
+  .picboxsmall {
+    width: 130px;
+    height: 150px;
+    margin-top: 55px;
+    background-color: green;
+    float: left;
+  }
+  .picboxmed {
+    width: 160px;
+    height: 230px;
+    background-color: rgb(0, 30, 128);
+    margin-top: 15px;
+    float: left;
+  }
+  .picboxlarge {
+    width: 260px;
+    height: 260px;
+    background-color: rgb(128, 0, 100);
+    float: left;
+  }
+   
+  .picboxsmall:hover{
+    transform: scale(1.15);
+    transition: 0.5s ease;
+  }
+  .picboxmed:hover{
+    transform: scale(1.08);
+    transition: 0.5s ease;
+  }
+  .picboxlarge:hover{
+    transform: scale(1.05);
+    transition: 0.4s ease;
+  }
+
+
+.newarrivals {
+    width: 1000px;
+    height: 325px;
+    margin-top: 15px;
+    background-color: rgb(22, 22, 22);
+    text-align: center;
+    padding: 25px 30px 30px 30px;
+    position: relative;
+    float: left;
+}
+
+.newarrivalsbox {
+    width: 160px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 23px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    float: left;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.newarrivalsbox:hover {
+    transform: scale(1.05);
+}
+
+.newarrivalsbox p {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    margin: 0;
+    font-size: .9rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+}
+
+.newarrivalsbox a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.newarrivals h1 {
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.arrivals-item1 {
+    background-image: url(Images/puffjacket.png);
+}
+
+.arrivals-item2 {
+ background-image: url(Images/hoodies.png);
+}
+
+.arrivals-item3 {
+    background-image: url(Images/jeanshorts.png);
+}
+
+.arrivals-item4 {
+    background-image: url(Images/knitted.png);
+}
+
+.arrivals-item5 {
+    background-image: url(Images/jeanjacket.png);
+}
+
+.adbox50 {
+    width: 900px;
+    height: 125px;
+    color: white;
+    margin: 90px 0px 50px 50px;
+    padding: 12px;
+    padding-left: 20px;
+    border-radius: 10px;
+    line-height: 1.5;
+    text-align: center;
+    position: relative;
+    background: linear-gradient(to bottom, rgb(67, 67, 67), rgb(38, 37, 37));
+    float: left;
+}
+
+.adbox50 h1 {
+    font-size: 1.2rem;
+}
+
+.ad50percentbox {
+    width: 450px;
+    height: 125px;
+    color: rgb(235,98,95);
+    padding-top: 5px;
+    float: left;
+}
+
+.adbox50 a:link {
+    color: rgb(235,98,95);
+    text-decoration: none;
+}
+
+.adbox50 a:visited {
+    color: rgb(235,98,95);
+    text-decoration: none;
+}
+
+.adbox50 a:hover {
+    color: rgb(212, 57, 57);
+    text-decoration: none;
+}
+
+.bigtextembed {
+    color: rgb(235,98,95);
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 500;
+    text-shadow: 0px 1px 0px rgba(255,255,255,.3), 0px -1px 0px rgba(0,0,0,.7);
+}
+
+.seperatorbox {
+    width: 900px;
+    height: 5px;
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+    background-color: rgb(57, 57, 59);
+    position: relative;
+    float: left;
+}
+
+.sidebox {
+    width: 200px;
+    height: 600px;
+    margin: 50px 18px 50px 17px;
+    padding: 25px;
+    border-radius: 15px;
+    position: relative;
+    background: linear-gradient(to bottom, rgb(230, 107, 105), rgb(136, 16, 14));
+    float: left;
+    
+    /* Flexbox */
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    z-index: 1; /* Controls the stack order of elements - .about::before z-index is -1 
+    because we want it below the .welcombox */
+}
+
+.sidebox::before {  /* Added pseudo-element - the ::before pseudo-element is used to 
+    insert content before the content of the .welcomebox element. */
+    
+    content: ""; /* Required for pseudo-elements - creates an empty box that can be styled */
+    position: absolute; /* Matches the position of the .sidebox element */
+   
+    /* Border Dimensions */
+    top: 5px; 
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    
+    background: rgb(26, 28, 31);
+    border-radius: 10px;
+    z-index: -1;
+}    
+
+.sidebox h1 {
+    color: rgb(235,98,95);
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sidebox p {
+    width: 175px;
+    color: rgb(167, 167, 167);
+    text-align: center;
+}
+
+.centerbox {
+    width: 450px;
+    height: 500px;
+    margin: 100px 40px 50px 40px;
+    padding: 25px;
+    border-radius: 15px;
+    position: relative;
+    background: linear-gradient(to bottom, rgb(193, 32, 32), rgb(56, 5, 4));
+    float: left;
+    
+    /* Flexbox */
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    z-index: 1;
+}
+
+.centerbox::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    background-image: url(Images/redbackgcenter.png);
+    border-radius: 10px;
+    z-index: -1;
+}
