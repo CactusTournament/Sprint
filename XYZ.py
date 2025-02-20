@@ -118,5 +118,5 @@ while True:
     # Write the values to a data file for storage.
 
 
-#yabadabadoo
+
 # Any housekeeping duties at the end of the program.
