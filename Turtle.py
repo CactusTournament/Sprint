@@ -99,5 +99,3 @@ while True:
         print()
         print_ascii_art()
         break
-
-turtle.done() # This function keeps the display window open until the user closes it
