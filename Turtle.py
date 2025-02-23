@@ -1,5 +1,5 @@
 # Description: This is a program that shows the uses of the turtle library, which can be used to make drawings.
-# Author: Landon
+# Author: Landon - Group 6
 # Date: Feb 17, 2025 - Feb 26, 2025
 
 # Program Library
