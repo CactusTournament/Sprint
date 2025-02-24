@@ -11,7 +11,7 @@ body {
 
 .mainbox {
   width: 1000px;
-  background-image: linear-gradient(to bottom, rgb(26, 28, 31), rgb(66, 26, 26), rgb(26, 28, 31));
+  background-color: rgb(26, 28, 31);
   margin: auto;
   margin-top: 5px;
   margin-bottom: 20px;
@@ -49,50 +49,6 @@ nav a {
 
 nav a:hover {
   color: rgb(235,98,95);
-}
-
-
-.displaybox {
-  width: 1000px;
-  height: 300px;
-  margin-top: 30px;
-  margin-left: 80px;
-  text-align: center;
-  float: left;
-}
- 
-.picboxsmall {
-  width: 130px;
-  height: 150px;
-  margin-top: 55px;
-  background-color: green;
-  float: left;
-}
-.picboxmed {
-  width: 160px;
-  height: 230px;
-  background-color: rgb(0, 30, 128);
-  margin-top: 15px;
-  float: left;
-}
-.picboxlarge {
-  width: 260px;
-  height: 260px;
-  background-color: rgb(128, 0, 100);
-  float: left;
-}
- 
-.picboxsmall:hover{
-  transform: scale(1.3);
-  transition: transform 0.15s ease-in-out;
-}
-.picboxmed:hover{
-  transform: scale(1.18);
-  transition: transform 0.15s ease-in-out;
-}
-.picboxlarge:hover{
-  transform: scale(1.14);
-  transition: transform 0.15s ease-in-out;
 }
 
 .footerbox {
@@ -168,6 +124,7 @@ nav a:hover {
   float: left;
 }
 
+
 .socialbox a:link {
   color: none;
   text-decoration: none;
@@ -177,6 +134,7 @@ nav a:hover {
   color: none;
   text-decoration: none;
 }
+
 
 .dotstyle {
   color: white;
