@@ -6,7 +6,7 @@
 import turtle # This library is used to create drawings/graphics with in python.
 
 # Program Constant
-t = turtle.Turtle() # Constant for the turtle object
+t = turtle.Turtle() # Constant for the turtle object.
 # Display for drawing
 turtle.setup(width=500, height=500, startx=500, starty=200) # This fuction is used to create the window in which the "turtle" will draw on.
 
@@ -58,10 +58,10 @@ while True:
             print()
 
     if Shape == "Square":
-        t.speed(1) # Controls speed of turtle
-        t.color("blue") # Dictates turtles color
+        t.speed(1) # Controls speed of turtle.
+        t.color("blue") # Dictates turtles color.
             
-        for i in range(4): # Directions for turtle to make shape
+        for i in range(4): # Directions for turtle to make shape.
             t.forward(100)
             t.right(90)
 
@@ -76,7 +76,7 @@ while True:
     elif Shape == "Circle":
         t.speed(1)
         t.color("green")
-        t.circle(100) # Function apart of the turtle library specificly made to make circles
+        t.circle(100) # Function apart of the turtle library specificly made to make circles.
 
     elif Shape == "Star":
         t.speed(1)
