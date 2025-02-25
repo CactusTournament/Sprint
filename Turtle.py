@@ -22,8 +22,7 @@ def print_ascii_title():
 
 def print_ascii_art():
     ascii_art = r"""
-                      Thank you for using Turtle,                       
-                  close the window to end the program.  
+                        Thank you for using Turtle.
 
                               ___-------___                         
                           _-~~             ~~-_                     
