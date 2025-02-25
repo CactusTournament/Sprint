@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: rgb(43, 43, 43);
+  background-color: rgb(26, 28, 31);
 }
 
 .mainbox {
@@ -53,8 +53,8 @@ nav a:hover {
 
 .footerbox {
   width: 1000px;
-  height: 300px;
-  background-color: #4CAF50;
+  height: 350px;
+  background-color: rgb(26, 28, 31);
   float: left;
 }
 
@@ -102,15 +102,34 @@ nav a:hover {
   text-align: center;
 }
 
+.topofpagebox {
+  width: 1000px;
+  height: 40px;
+  background-color: rgb(26, 28, 31);
+  float: left;
+}
+
 .copyrightbox {
   box-sizing: border-box;
   color: rgb(143, 143, 143);
-  width: 800px;
+  width: 200px;
   height: 50px;
   background-color: rgb(26, 28, 31);
   padding-top: 25px;
   padding-left: 10px;
   font-size: 13px;
+  float: left;
+}
+
+.dotbox {
+  box-sizing: border-box;
+  width: 50px;
+  height: 50px;
+  margin-left: 300px;
+  margin-right: 250px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(26, 28, 31);
   float: left;
 }
 .socialbox {

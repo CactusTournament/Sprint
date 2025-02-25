@@ -37,15 +37,15 @@ main {
    
   .picboxsmall:hover{
     transform: scale(1.15);
-    transition: 0.5s ease;
+    transition: 0.2s ;
   }
   .picboxmed:hover{
-    transform: scale(1.08);
-    transition: 0.5s ease;
+    transform: scale(1.10);
+    transition: 0.2s ;
   }
   .picboxlarge:hover{
-    transform: scale(1.05);
-    transition: 0.4s ease;
+    transform: scale(1.15);
+    transition: 0.2s ;
   }
 
 
@@ -203,15 +203,15 @@ main {
     /* Flexbox */
     display: flex; 
     flex-direction: column;
-    justify-content: center;
+    
     align-items: center;
     
     z-index: 1; /* Controls the stack order of elements - .about::before z-index is -1 
-    because we want it below the .welcombox */
+    because we want it below the .sidebox */
 }
 
 .sidebox::before {  /* Added pseudo-element - the ::before pseudo-element is used to 
-    insert content before the content of the .welcomebox element. */
+    insert content before the content of the .sidebox element. */
     
     content: ""; /* Required for pseudo-elements - creates an empty box that can be styled */
     position: absolute; /* Matches the position of the .sidebox element */
@@ -229,17 +229,24 @@ main {
 
 .sidebox h1 {
     color: rgb(235,98,95);
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 40px;
     text-align: center;
     font-size: 1.6rem;
     font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.sidebox p {
-    width: 175px;
+.sidebox ul {
     color: rgb(167, 167, 167);
     text-align: center;
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+
+.sidebox li {
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 .centerbox {
