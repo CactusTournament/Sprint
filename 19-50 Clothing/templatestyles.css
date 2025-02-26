@@ -166,3 +166,24 @@ nav a:hover {
     -1px 1px 0 #333;          /* Light shadow on bottom-left */
 
 }
+
+.totopbutton {
+  width: 100px;
+  height: 40px;
+  background-image: linear-gradient(to top,rgb(190, 66, 64), rgb(235,98,95));
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  text-shadow: 1px 1px 0 rgb(49, 49, 49);
+  padding-top: 11px;
+  position: fixed;
+  bottom: 15px;
+  right: 12px;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+html {
+  scroll-behavior: smooth;
+}

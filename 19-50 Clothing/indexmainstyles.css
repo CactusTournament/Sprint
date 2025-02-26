@@ -203,7 +203,6 @@ main {
     /* Flexbox */
     display: flex; 
     flex-direction: column;
-    
     align-items: center;
     
     z-index: 1; /* Controls the stack order of elements - .about::before z-index is -1 
