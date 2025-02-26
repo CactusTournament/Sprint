@@ -39,7 +39,7 @@ while True:
             break
     EquipCost = float(EquipCost)
     while True:
-        PurDate = input("Enter the equipment purchase date(YYYY-MM-DD): ")
+        PurDate = input("Enter the equipment purchase date (YYYY-MM-DD): ")
         try:
             PurDate = datetime.datetime.strptime(PurDate, "%Y-%m-%d")
         except ValueError:
@@ -113,6 +113,10 @@ while True:
             os.system("cls" if os.name == "nt" else "clear")
             break
         else:
+            os.system("cls" if os.name == "nt" else "clear")
+            print()
+            print("Thankyou for using the XYZ Maintenance Schedule program!")
+            print()
             exit()
 
     # Write the values to a data file for storage.

@@ -1,6 +1,19 @@
+# Description: This program is a menu that allows the user to select from 6 different options containing the completed code for the Midterm Sprint, aswell as an exit option. The program will loop until the user selects the exit option.
+# Author: Brandon Maloney & Group 6/SD 14
+# Date(s): February 18, 2025 - Febuary 18, 2025
+
+# Define required libraries.
 import os
 
+# Define program constants.
+
+# Define program functions.
+
+# Main program starts here.
+
 while True:
+
+    # Display the main menu.
     os.system("cls" if os.name == "nt" else "clear")
     print(" --------------------------------")
     print(" |  Midterm Sprint - Main Menu  |")
@@ -33,7 +46,8 @@ while True:
             ||| \\      __ /_||  __||__
 -------------||-/------`-._/||-o--o---o--------------------------------
 ~~~~~~~~~~~~~~~'"""))
-        Menu = input("Enter your selection: ")
+        # Gather user inputs.
+        Menu = input("Enter your selection (1-6): ")
         os.system("cls" if os.name == "nt" else "clear")
         if Menu == "1":
             os.system("cls" if os.name == "nt" else "clear")
