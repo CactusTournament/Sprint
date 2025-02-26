@@ -20,7 +20,7 @@ while True:
     print(" --------------------------------")
     while True:
         allowed_char = set("1234567890")
-        print(" Please select from the following options:")
+        print(" Please select from the following options: ")
         print(" 1. Complete a travel claim.")
         print(" 2. Fun interview questions.")    
         print(" 3. Cool stuff with strings and dates.")

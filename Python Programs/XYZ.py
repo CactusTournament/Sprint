@@ -115,7 +115,7 @@ while True:
         else:
             os.system("cls" if os.name == "nt" else "clear")
             print()
-            print("Thankyou for using the XYZ Maintenance Schedule program!")
+            print("Thank you for using the XYZ Maintenance Schedule program!")
             print()
             exit()
 
