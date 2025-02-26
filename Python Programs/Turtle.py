@@ -14,8 +14,8 @@ turtle.setup(width=500, height=500, startx=500, starty=200) # This fuction is us
 def print_ascii_title():
     ascii_title = r"""
 
-                        ▀█▀ █░█ █▀█ ▀█▀ █░░ █▀▀
-                        ░█░ █▄█ █▀▄ ░█░ █▄▄ ██▄
+                        ▀█▀ █░█ █▀█ ▀█▀ █░░ █▀▀
+                        ░█░ █▄█ █▀▄ ░█░ █▄▄ ██▄
 
 """
     print(ascii_title)
