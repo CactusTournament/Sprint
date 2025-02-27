@@ -13,6 +13,6 @@ Here we have included:
     - Turtle Program
     - XYZ Maintanence Scheduler
 - Project 3 – Bash 
-- Project 4 – Presentation – to be presented on Mon, Feb 28 @ 12 pm.
+- Project 4 – Presentation – to be presented on Mon, Feb 28 @ 10:30 am.
 - Project 5 – Web Design
     - 19-50 Clothing
